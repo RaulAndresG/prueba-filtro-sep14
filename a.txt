@@ -1,0 +1,731 @@
+[{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd995"
+  },
+  "acu_nombreCompleto": "Huber Rincón",
+  "acu_telefono": "3215201348",
+  "acu_direccion": "Cra 22 #74-101"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd992"
+  },
+  "acu_nombreCompleto": "Luis Prada",
+  "acu_telefono": "3168559741",
+  "acu_direccion": "Calle 54 #21-10"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd990"
+  },
+  "acu_nombreCompleto": "María Suárez",
+  "acu_telefono": "3154789852",
+  "acu_direccion": "Cra 24 #34-11"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd994"
+  },
+  "acu_nombreCompleto": "Domingo Paredes",
+  "acu_telefono": "3185421012",
+  "acu_direccion": "Calle 25 #10-45"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd993"
+  },
+  "acu_nombreCompleto": "Deiber Zuñiga",
+  "acu_telefono": "3178459632",
+  "acu_direccion": "Cra 17 #36-71"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd998"
+  },
+  "acu_nombreCompleto": "Juan Quinchoa",
+  "acu_telefono": "3162552487",
+  "acu_direccion": "Cra 54 #21-321"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd991"
+  },
+  "acu_nombreCompleto": "Mario García",
+  "acu_telefono": "3102547484",
+  "acu_direccion": "Cra 44 #14-21"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd996"
+  },
+  "acu_nombreCompleto": "Laudith Gómez",
+  "acu_telefono": "3142013654",
+  "acu_direccion": "Cra 60 #20-151"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd997"
+  },
+  "acu_nombreCompleto": "Liseth Acuña",
+  "acu_telefono": "3185203164",
+  "acu_direccion": "Calle 64 #20-51"
+},{
+  "_id": {
+    "$oid": "6502fee1928eaf03e12bd999"
+  },
+  "acu_nombreCompleto": "Sherman Torres",
+  "acu_telefono": "3201478541",
+  "acu_direccion": "Cra 44 #34-11"
+}]
+
+///////////////
+
+[{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a9"
+  },
+  "cit_fecha": "14-09-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd979"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98b"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99f"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a4"
+  },
+  "cit_fecha": "15-02-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd986"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99a"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a6"
+  },
+  "cit_fecha": "16-06-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd988"
+  },
+  "cit_datosUsuario": {
+    "$oid": "65030d0e5818d23d9df5d155"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a8"
+  },
+  "cit_fecha": "03-09-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98a"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99e"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a7"
+  },
+  "cit_fecha": "29-08-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd989"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99d"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9aa"
+  },
+  "cit_fecha": "14-09-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd979"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98c"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd9a0"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9ad"
+  },
+  "cit_fecha": "26-11-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd978"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98f"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd9a3"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9ac"
+  },
+  "cit_fecha": "15-10-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd978"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98e"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd9a2"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9a5"
+  },
+  "cit_fecha": "05-04-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd987"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99b"
+  }
+},{
+  "_id": {
+    "$oid": "650305a7928eaf03e12bd9ab"
+  },
+  "cit_fecha": "14-09-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd979"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98d"
+  },
+  "cit_datosUsuario": {
+    "$oid": "65030d475818d23d9df5d156"
+  }
+},{
+  "_id": {
+    "$oid": "6503177a3530b8763080aa20"
+  },
+  "cit_fecha": "25-12-2023",
+  "cit_estadoCita": {
+    "$oid": "6502f8c5928eaf03e12bd978"
+  },
+  "cit_medico": {
+    "$oid": "6502fcc9928eaf03e12bd98f"
+  },
+  "cit_datosUsuario": {
+    "$oid": "650302f6928eaf03e12bd99a"
+  }
+}]
+
+/(//////)
+
+[{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd96f"
+  },
+  "cons_nombre": "Medifix"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd971"
+  },
+  "cons_nombre": "Clínica OnmiCare"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd96e"
+  },
+  "cons_nombre": "MediSana"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd976"
+  },
+  "cons_nombre": "Vital Doc"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd974"
+  },
+  "cons_nombre": "MedicDerm"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd975"
+  },
+  "cons_nombre": "Salud Plus"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd977"
+  },
+  "cons_nombre": "Vita Med"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd972"
+  },
+  "cons_nombre": "Prime Medic"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd973"
+  },
+  "cons_nombre": "Mediflex"
+},{
+  "_id": {
+    "$oid": "6502f858928eaf03e12bd970"
+  },
+  "cons_nombre": "Medicalia"
+}]
+
+////
+
+[{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd96d"
+  },
+  "esp_nombre": "Pediatría"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd966"
+  },
+  "esp_nombre": "Anestesiología"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd967"
+  },
+  "esp_nombre": "Dermatología"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd968"
+  },
+  "esp_nombre": "Ginecología"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd969"
+  },
+  "esp_nombre": "Medicina interna"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd964"
+  },
+  "esp_nombre": "Cirugía general"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd965"
+  },
+  "esp_nombre": "Cardiología clínica"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd96c"
+  },
+  "esp_nombre": "Otorrinolaringología"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd96a"
+  },
+  "esp_nombre": "Oftamología"
+},{
+  "_id": {
+    "$oid": "6502f7c9928eaf03e12bd96b"
+  },
+  "esp_nombre": "Psiquiatría General"
+}]
+/////
+
+[{
+  "_id": {
+    "$oid": "6502f8c5928eaf03e12bd97a"
+  },
+  "estcita_nombre": "Finalizada"
+},{
+  "_id": {
+    "$oid": "6502f8c5928eaf03e12bd978"
+  },
+  "estcita_nombre": "Pendiente"
+},{
+  "_id": {
+    "$oid": "6502f8c5928eaf03e12bd979"
+  },
+  "estcita_nombre": "En proceso"
+},{
+  "_id": {
+    "$oid": "6502fcb7928eaf03e12bd985"
+  },
+  "estcita_nombre": "Cancelada"
+}]
+
+////
+[{
+  "_id": {
+    "$oid": "6502f6e5928eaf03e12bd962"
+  },
+  "gen_nombre": "Masculino",
+  "gen_abreviatura": "M"
+},{
+  "_id": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "gen_nombre": "Femenino",
+  "gen_abreviatura": "F"
+}]
+
+///
+
+[{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98f"
+  },
+  "med_nroMatriculaProfesional": "1007985641",
+  "med_nombreCompleto": "Jose Sanchez",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd977"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd96d"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd988"
+  },
+  "med_nroMatriculaProfesional": "1547852",
+  "med_nombreCompleto": "Mariana Alba",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd970"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd966"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd987"
+  },
+  "med_nroMatriculaProfesional": "1007845210",
+  "med_nombreCompleto": "Andres Torres",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd96f"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd965"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98d"
+  },
+  "med_nroMatriculaProfesional": "1010469854",
+  "med_nombreCompleto": "Andrea Sarmiento",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd975"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd96b"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd986"
+  },
+  "med_nroMatriculaProfesional": "7584632",
+  "med_nombreCompleto": "Felipe Santamaría",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd96e"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd964"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98e"
+  },
+  "med_nroMatriculaProfesional": "7985632",
+  "med_nombreCompleto": "Sara Amariz",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd976"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd96c"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98b"
+  },
+  "med_nroMatriculaProfesional": "1010658741",
+  "med_nombreCompleto": "German Sanchez",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd973"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd969"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98a"
+  },
+  "med_nroMatriculaProfesional": "7544748",
+  "med_nombreCompleto": "Paolo Zapata",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd972"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd968"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd98c"
+  },
+  "med_nroMatriculaProfesional": "7859641",
+  "med_nombreCompleto": "Juan Quiñonez",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd974"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd96a"
+  }
+},{
+  "_id": {
+    "$oid": "6502fcc9928eaf03e12bd989"
+  },
+  "med_nroMatriculaProfesional": "1007841236",
+  "med_nombreCompleto": "Luisa Suárez",
+  "med_consultorio": {
+    "$oid": "6502f858928eaf03e12bd971"
+  },
+  "med_especialidad": {
+    "$oid": "6502f7c9928eaf03e12bd967"
+  }
+}]
+
+//////
+
+[{
+  "_id": {
+    "$oid": "6502f680928eaf03e12bd960"
+  },
+  "tipdoc_nombre": "Tarjeta de identidad",
+  "tipdoc_abreviatura": "T.I"
+},{
+  "_id": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "tipdoc_nombre": "Cédula de ciudadanía",
+  "tipdoc_abreviatura": "C.C"
+}]
+
+/////
+
+[{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd9a0"
+  },
+  "usu_id": "78541233",
+  "usu_nombre": "Albeiro",
+  "usu_segdo_nombre": "Andres",
+  "usu_primer_apellido": "Rincón",
+  "usu_segdo_apellido": "Paredes",
+  "usu_telefono": "3162533001",
+  "usu_direccion": "Calle 24 #25-87",
+  "usu_email": "albeirorincon@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd962"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd996"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99a"
+  },
+  "usu_id": "7541236",
+  "usu_nombre": "Pedro",
+  "usu_segdo_nombre": "Alberto",
+  "usu_primer_apellido": "Pinzón",
+  "usu_segdo_apellido": "Pinilla",
+  "usu_telefono": "3102459874",
+  "usu_direccion": "Avenida 24 #34-14",
+  "usu_email": "pedropinzon@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd962"
+  },
+  "usu_acudiente": {
+    "$oid": "650303085818d23d9df5d137"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd9a3"
+  },
+  "usu_id": "7544715",
+  "usu_nombre": "Sara",
+  "usu_segdo_nombre": "Andrea",
+  "usu_primer_apellido": "Galvis",
+  "usu_segdo_apellido": "Quintero",
+  "usu_telefono": "3100235478",
+  "usu_direccion": "Calle 13 #98-24",
+  "usu_email": "saraquintero@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd999"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99c"
+  },
+  "usu_id": "1007854120",
+  "usu_nombre": "Andrea",
+  "usu_segdo_nombre": "María",
+  "usu_primer_apellido": "Sanguino",
+  "usu_segdo_apellido": "Alba",
+  "usu_telefono": "3125698520",
+  "usu_direccion": "Calle 25 #34-21",
+  "usu_email": "andreaalba@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd960"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd992"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99b"
+  },
+  "usu_id": "1007963205",
+  "usu_nombre": "Alba",
+  "usu_segdo_nombre": "María",
+  "usu_primer_apellido": "Flores",
+  "usu_segdo_apellido": "Díaz",
+  "usu_telefono": "3124567896",
+  "usu_direccion": "Cra 34 #24-12",
+  "usu_email": "albadiaz@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd960"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd991"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99d"
+  },
+  "usu_id": "3564258",
+  "usu_nombre": "Andres",
+  "usu_segdo_nombre": "Felipe",
+  "usu_primer_apellido": "Pastrana",
+  "usu_segdo_apellido": "Parra",
+  "usu_telefono": "3154712130",
+  "usu_direccion": "Calle 125 #24-12",
+  "usu_email": "andrespastrana@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd962"
+  },
+  "usu_acudiente": {
+    "$oid": "650303285818d23d9df5d138"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99f"
+  },
+  "usu_id": "1009685412",
+  "usu_nombre": "Nardy",
+  "usu_segdo_nombre": "Sofia",
+  "usu_primer_apellido": "Sanchez",
+  "usu_segdo_apellido": "Prada",
+  "usu_telefono": "3102587421",
+  "usu_direccion": "Calle 12 #43-12",
+  "usu_email": "nardysanchez@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd960"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd995"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd99e"
+  },
+  "usu_id": "7544740",
+  "usu_nombre": "Juliana",
+  "usu_segdo_nombre": "Andrea",
+  "usu_primer_apellido": "Santiago",
+  "usu_segdo_apellido": "Santiago",
+  "usu_telefono": "3198542136",
+  "usu_direccion": "Cra 35 #43-12",
+  "usu_email": "julianasantiago@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd963"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd994"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd9a1"
+  },
+  "usu_id": "75412036",
+  "usu_nombre": "Aura",
+  "usu_segdo_nombre": "Maria",
+  "usu_primer_apellido": "Suarez",
+  "usu_segdo_apellido": "Quiñonez",
+  "usu_telefono": "31625597412",
+  "usu_direccion": "Cra 34 #43-21",
+  "usu_email": "aurasuarez@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd961"
+  },
+  "usu_genero": {
+    "$oid": "650303575818d23d9df5d139"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd997"
+  }
+},{
+  "_id": {
+    "$oid": "650302f6928eaf03e12bd9a2"
+  },
+  "usu_id": "1007930602",
+  "usu_nombre": "Josue",
+  "usu_segdo_nombre": "Alvaro",
+  "usu_primer_apellido": "Torres",
+  "usu_segdo_apellido": "Zapata",
+  "usu_telefono": "3162552487",
+  "usu_direccion": "Cra 54 #98-12",
+  "usu_email": "josuetorres@gmail.com",
+  "usu_tipodoc": {
+    "$oid": "6502f680928eaf03e12bd960"
+  },
+  "usu_genero": {
+    "$oid": "6502f6e5928eaf03e12bd962"
+  },
+  "usu_acudiente": {
+    "$oid": "6502fee1928eaf03e12bd998"
+  }
+}]
+
+

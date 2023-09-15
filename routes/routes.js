@@ -3,10 +3,10 @@
 const express = require('express');
 //Mongodb 
 const { MongoClient, ObjectId } = require('mongodb');
-
+///
 const moment = require('moment');
 require('dotenv').config();
-
+///
 const router = express.Router();
 
 const bases = process.env.DATA;
@@ -510,9 +510,9 @@ router.get('/enpo10', async (req, res) => {
         const citaCollection = db.collection('cita');
         const usuarioCollection = db.collection('usuario');
         
-        const citasPorGenero = await citaCollection.aggregate([
+        const citasPorGeneroAtendidas = await citaCollection.aggregate([
             {
-                $match: { cit_estadoCita: 'Atendida' } 
+                $match: { cit_estado: "Atendida" } 
             },
             {
                 $lookup: {
@@ -529,23 +529,96 @@ router.get('/enpo10', async (req, res) => {
                 $project: {
                     _id: 1,
                     cit_fecha: 1,
-                    cit_estadoCita: 1,
-                    cit_generoPaciente: '$usuario.usu_genero'
+                    cit_generoPaciente: '$usuario.usu_genero.gen_nombre' 
                 }
             }
         ]).toArray();
 
         res.json({
-            msg: "Citas realizadas por pacientes según su género (solo si estado es 'Atendida')",
-            citasPorGenero
+            msg: "Citas realizadas por pacientes según su género (solo si el estado es 'Atendida')",
+            citasPorGeneroAtendidas
         });
 
         client.close();
     } catch (error) {
-        console.log(error, "Error al obtener citas por género.");
-        res.status(500).json({ error: "Error al obtener citas por género" });
+        console.log(error, "Error al obtener citas por género atendidas.");
+        res.status(500).json({ error: "Error al obtener citas por género atendidas" });
     }
 });
+
+
+router.get('/enpo12', async (req, res) => {
+    try {
+        const client = new MongoClient(bases);
+        await client.connect();
+        const db = client.db(nombrebase);
+        const collection = db.collection('cita');
+
+        const mesEspecifico = 9; 
+        const añoEspecifico = 2023; 
+
+        const fechaInicio = new Date(añoEspecifico, mesEspecifico - 1, 1);
+        const fechaFin = new Date(añoEspecifico, mesEspecifico, 0);
+
+        const query = {
+            cit_fecha_cancelacion: {
+                $gte: fechaInicio,
+                $lte: fechaFin
+            }
+        };
+
+        const result = await collection.aggregate([
+            {
+                $match: query
+            },
+            {
+                $lookup: {
+                    from: 'usuario',
+                    localField: 'cit_datosUsuario',
+                    foreignField: '_id',
+                    as: 'usuario'
+                }
+            },
+            {
+                $lookup: {
+                    from: 'medico',
+                    localField: 'cit_medico',
+                    foreignField: '_id',
+                    as: 'medico'
+                }
+            },
+            {
+                $project: {
+                    _id: 1,
+                    cit_fecha_cancelacion: 1,
+                    cit_datosUsuario: {
+                        $concat: [
+                            { $arrayElemAt: ['$usuario.usu_nombre', 0] },
+                            ' ',
+                            { $arrayElemAt: ['$usuario.usu_segdo_nombre', 0] },
+                            ' ',
+                            { $arrayElemAt: ['$usuario.usu_primer_apellido', 0] },
+                            ' ',
+                            { $arrayElemAt: ['$usuario.usu_segdo_apellido', 0] }
+                        ]
+                    },
+                    cit_medico: { $arrayElemAt: ['$medico.med_nombreCompleto', 0] }
+                }
+            }
+        ]).toArray();
+
+        res.json({
+            msg: `Citas canceladas en el mes ${mesEspecifico} del ${añoEspecifico}`,
+            result
+        });
+
+        client.close();
+    } catch (error) {
+        console.log(error, "Error al obtener citas canceladas por mes.");
+        res.status(500).json({ error: "Error al obtener citas canceladas por mes" });
+    }
+});
+
 
 
 
